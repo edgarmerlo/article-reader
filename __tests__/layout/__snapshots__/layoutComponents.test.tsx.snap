@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots for layout components renders article main layout 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthXl css-19r6kue-MuiContainer-root"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-regular css-1cndkqf-MuiToolbar-root"
+      >
+        Article Reader v0.1.0
+      </div>
+    </div>
+  </header>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 css-91mf4q-MuiPaper-root"
+  >
+    Hi
+  </div>
+</div>
+`;
+
+exports[`Snapshots for layout components renders contentcontainer 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation2 css-91mf4q-MuiPaper-root"
+  >
+    Hi
+  </div>
+</div>
+`;
+
+exports[`Snapshots for layout components renders header 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-hip9hq-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthXl css-19r6kue-MuiContainer-root"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-regular css-1cndkqf-MuiToolbar-root"
+      >
+        Article Reader v0.1.0
+      </div>
+    </div>
+  </header>
+</div>
+`;

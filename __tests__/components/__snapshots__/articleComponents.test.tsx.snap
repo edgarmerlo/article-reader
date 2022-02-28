@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Articles service renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 css-61ve4i-MuiPaper-root"
+  >
+    Hi
+  </div>
+</div>
+`;
+
+exports[`Snapshots for article components renders article header 1`] = `
+<div>
+  <h1
+    class="MuiTypography-root MuiTypography-h3 css-gepadz-MuiTypography-root"
+  >
+    test
+  </h1>
+  <div
+    class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+  >
+    <div
+      class="MuiCardHeader-avatar css-1ssile9-MuiCardHeader-avatar"
+    >
+      <div
+        aria-label="recipe"
+        class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-2s90m6-MuiAvatar-root"
+      >
+        T
+      </div>
+    </div>
+    <div
+      class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+    >
+      <span
+        class="MuiTypography-root MuiTypography-body2 MuiCardHeader-title css-et1ao3-MuiTypography-root"
+      >
+        Author: Test
+      </span>
+      <span
+        class="MuiTypography-root MuiTypography-body2 MuiCardHeader-subheader css-83ijpv-MuiTypography-root"
+      >
+        08 / 12 / 2020
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshots for article components renders article header 2`] = `
+<div>
+  <img
+    class="image"
+    src="https://content-eu-4.content-cms.com//test"
+  />
+</div>
+`;
+
+exports[`Snapshots for article components renders articlecontent 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 css-61ve4i-MuiPaper-root"
+  >
+    Hi
+  </div>
+</div>
+`;
