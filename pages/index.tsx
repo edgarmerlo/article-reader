@@ -6,7 +6,7 @@ import { ArticlesService } from 'services/ArticlesService';
 import { ResponsiveImage } from 'components/article/ResponsiveImage';
 import { ArticleHeader } from 'components/article/ArticleHeader';
 import { ArticleContent } from 'components/article/ArticleContent';
-import xss from "xss";
+import { SanitizerService } from 'services/SanitizerService';
 
 interface MainPageProps {
   article: {
@@ -38,7 +38,7 @@ const Home: NextPage<MainPageProps> = ({ article }) => {
             article.body.values.map(
               (line, index) =>
                 <span
-                  key={index} dangerouslySetInnerHTML={{ __html: xss(line) }}>
+                  key={index} dangerouslySetInnerHTML={{ __html: SanitizerService.sanitizeString(line) }}>
                 </span>
             )
           }
